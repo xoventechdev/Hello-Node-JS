@@ -16,5 +16,5 @@ http.createServer(function(req, res) {
     res.writeHead(200, {'Content-Type': 'text/html'});
     res.end(`PathName 1 : ${pathname} <br> PathName 2 : ${pathName}`);
 
-}).listen(3030);
+}).listen(8888);
 
